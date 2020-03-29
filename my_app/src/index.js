@@ -1,24 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Car from "./Car"
 
 // A Class Componenet
-class Car extends React.Component {
+class Garage extends React.Component {
+
+    constructor(props) {
+        super(props)
+        this.state = {colour: this.props.colour}
+    }
 
     render() {
-        return <h2>Hi, I am a Car!</h2>;
-      }
+        return (
+        <div>
+            <h1> I have a garage with</h1>
+            <Car colour={this.state.colour}></Car>
+        </div>)
+    }
 }
 
 // A function Component
 function Drive() {
-        return <h2>Drive the car!</h2>;
+    return <h2>Drive the car!</h2>;
 }
 
-const myfirstelement = 
-(<div>
-    <h1>I am a Header.</h1>
-    <h1>I am a Header too.</h1>
-</div>)
-
-ReactDOM.render(<Drive/>, document.getElementById('root'));
+ReactDOM.render(<Garage colour="red"/>, document.getElementById('root'));
 
