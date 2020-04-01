@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Car from "./Car"
+import Car from "./component/Car"
+import CarForm from './component/CarForm';
 
 // A Class Componenet
 class Garage extends React.Component {
@@ -40,6 +41,8 @@ class Garage extends React.Component {
             <h1> I have a {this.state.size} garage!</h1>
             {car1}
             {car2}
+            <h1> Buy a Car </h1>
+            <CarForm></CarForm>
         </div>
         );
     }
