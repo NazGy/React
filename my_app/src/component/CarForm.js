@@ -7,9 +7,9 @@ class CarForm extends React.Component {
         super(props)
         this.state = {
             colour: "",
-            colourValidation: false,
+            colourValidation: "",
             brand: "",
-            brandValidation: false
+            brandValidation: ""
         }
     }
 
@@ -23,20 +23,6 @@ class CarForm extends React.Component {
     }
 
     render() {
-        // let colourValidationMessage = '';
-        // let brandValidationMessage = '';
-        // if (this.state.colourValidation) {
-        //     colourValidationMessage = <p>Do not include numbers!</p>;
-        // } else {
-        //     colourValidationMessage = '';
-        // }
-        // if (this.state.brandValidation) {
-        //     brandValidationMessage = <p>Do not include numbers!</p>;
-        // } else {
-        //     brandValidationMessage = '';
-
-        // }
-
         return (
             <form onSubmit={this.newCar}>
                 <p>Enter your car information</p>
@@ -49,7 +35,7 @@ class CarForm extends React.Component {
                 </p>
                 {this.state.brandValidation}
                 <input
-                    type='submit'
+                    type="submit"
                 />
             </form>
 
