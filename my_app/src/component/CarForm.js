@@ -3,34 +3,51 @@ import ReactDOM from 'react-dom';
 
 class CarForm extends React.Component {
 
-    contructor(props) {
+    constructor(props) {
+        super(props)
         this.state = {
             colour: "",
-            brand: ""
+            colourValidation: false,
+            brand: "",
+            brandValidation: false
         }
     }
 
-    colourChange = (event) => {
-        this.setState({ colour: event.target.value })
-    }
-
-    brandChange = (event) => {
-        this.setState({ brand: event.target.value })
+    // Change handler that works for all form elements given they have a type name in state
+    onChangeHandler = (event) => {
+        this.setState({[event.target.name]: event.target.value});
+        this.setState({[event.target.name + "Validation"]: /\d/.test(event.target.value) ? <p>Do not include numbers!</p> : ''})
     }
 
     newCar = (event) => {
     }
 
     render() {
+        // let colourValidationMessage = '';
+        // let brandValidationMessage = '';
+        // if (this.state.colourValidation) {
+        //     colourValidationMessage = <p>Do not include numbers!</p>;
+        // } else {
+        //     colourValidationMessage = '';
+        // }
+        // if (this.state.brandValidation) {
+        //     brandValidationMessage = <p>Do not include numbers!</p>;
+        // } else {
+        //     brandValidationMessage = '';
+
+        // }
+
         return (
             <form onSubmit={this.newCar}>
                 <p>Enter your car information</p>
                 <p>
-                    Colour: <input type="text" onColourChange={this.colourChange}></input>
+                    Colour: <input type="text" name="colour" onChange={this.onChangeHandler}></input>
                 </p>
+                {this.state.colourValidation}
                 <p>
-                    Brand: <input type="text" onBrandChange={this.brandChange}></input>
+                    Brand: <input type="text" name="brand" onChange={this.onChangeHandler}></input>
                 </p>
+                {this.state.brandValidation}
                 <input
                     type='submit'
                 />
