@@ -38,9 +38,8 @@ class Header extends React.Component {
         }
 
         if (this.state && this.state.toggled) {
-            colorMap[this.state.toggled] = "7F13D3"
+            colorMap[this.state.toggled] = "#7F13D3"
         }
-
 
         return (
             <AppBar position="static" style={{ backgroundColor: '#23251C', boxShadow: 'none' }}>
