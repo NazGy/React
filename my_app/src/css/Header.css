@@ -1,0 +1,13 @@
+.header {
+    background-color: '#23251C' !important;
+    box-shadow: 'none' !important;
+}
+
+a {
+    text-decoration: none !important
+}
+
+Button {
+    font-family: 'Fira Code' !important;
+}
+
