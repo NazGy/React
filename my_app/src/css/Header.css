@@ -9,5 +9,6 @@ a {
 
 Button {
     font-family: 'Fira Code' !important;
+    font-size: large !important;
+    text-transform: none !important;
 }
-

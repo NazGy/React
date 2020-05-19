@@ -8,3 +8,39 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+.photo {
+    opacity: 0.4;
+}
+
+.center_page {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.row {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    /* border: solid red 1px; */
+}
+
+.name {
+    font-family: 'Fira Code' !important;
+    font-size: 60px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3em !important;
+    color: #FFFFFF;
+    position: absolute;
+    top: 400px;
+}
+
+.title {
+    margin-top: 20px !important;
+    font-family: 'Fira Code' !important;
+    font-size: 40px !important;
+    color: #DAB6F9;
+}
