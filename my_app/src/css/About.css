@@ -1,0 +1,14 @@
+.about_title {
+    font-family: 'Fira Code' !important;
+    font-size: 60px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3em !important;
+    color: #DAB6F9;
+}
+
+.about_desc {
+    /* margin-top: 20px !important; */
+    font-family: 'Fira Code' !important;
+    font-size: 20px !important;
+    color: #FFFFFF;
+}
