@@ -42,7 +42,7 @@ class Header extends React.Component {
         }
 
         return (
-            <AppBar position="static" style={{ backgroundColor: '#23251C', boxShadow: 'none' }}>
+            <AppBar position="fixed" style={{ backgroundColor: '#23251C', boxShadow: 'none' }}>
                 <Toolbar>
                     <img style={{width: '40', height: '40'}} src={require('./pictures/Logo.png')}/>
                     <Link to="/">

@@ -4,7 +4,7 @@ import HomePage from './component/HomePage.js'
 import Header from './Header.js'
 import { Typography } from '@material-ui/core';
 import "./css/Home.css"
-import { withRouter } from 'react-router';
+import { withRouter, Redirect } from 'react-router';
 import {
     Switch,
     Route,
@@ -15,12 +15,15 @@ import AboutPage from './component/AboutPage.js';
 class App extends React.Component {
     render() {
         return (
-            <div className="backdrop" style={{ backgroundColor: '#23251C' }}>
+            <div className="backdrop" style={{ border: 'solid green 1px' }}>
                 <Router>
                     <div>
                         <Header></Header>
                         <Switch>
                             <Route exact path="/">
+                                <Redirect to="/Home"></Redirect>
+                            </Route>
+                            <Route exact path="/Home">
                                 <HomePage></HomePage>
                             </Route>
                             <Route exact path="/About">

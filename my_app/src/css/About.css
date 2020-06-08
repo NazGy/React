@@ -12,3 +12,32 @@
     font-size: 20px !important;
     color: #FFFFFF;
 }
+
+.column {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    /* border: solid red 1px; */
+}
+
+.pink_box {
+    background-color: #DAB6F9;
+    height: 100%;
+    width: 30% !important;
+}
+
+.background_box {
+    height: 100%;
+    width: 70% !important;
+}
+
+.background {
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
