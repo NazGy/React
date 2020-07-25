@@ -1,0 +1,88 @@
+.snappy_byline {
+    font-family: 'Fira Code' !important;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3em !important;
+    color: #DAB6F9;
+}
+
+.experience_title {
+    font-family: 'Fira Code' !important;
+    font-size: 60px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3em !important;
+    color: #DAB6F9;
+}
+
+.cover_photo {
+    opacity: 0.8;
+    width: 100%;
+    margin-top: 40px; 
+}
+
+.item {
+    border-right: 3px solid rgb(0, 146, 247);
+}
+
+.vert {
+    background-color: #DAB6F9 !important;
+    width: 2px !important;
+    border-radius: 20%;
+}
+
+.horizontal {
+    margin-top: 4px !important;
+    background-color: white !important;
+    height: 2px !important;
+    width: 33% !important;
+}
+
+.job_title {
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.job_date {
+    margin-top: 8px !important;
+    color: white;
+    font-size: 15px;
+    font-family: Fira Code;
+    font-style: normal;
+}
+
+.job_desc {
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+}
+
+.job_row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc_row {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    /* width: 75% !important; */
+    height: 15vh !important;
+}

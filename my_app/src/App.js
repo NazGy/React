@@ -11,11 +11,14 @@ import {
     BrowserRouter as Router
 } from "react-router-dom";
 import AboutPage from './component/AboutPage.js';
+import ExperiencePage from './component/ExperiencePage.js';
+import SkillPage from './component/SkillPage.js';
+
 
 class App extends React.Component {
     render() {
         return (
-            <div className="backdrop" style={{ border: 'solid green 1px' }}>
+            <div className="backdrop">
                 <Router>
                     <div>
                         <Header></Header>
@@ -30,10 +33,10 @@ class App extends React.Component {
                                 <AboutPage></AboutPage>
                             </Route>
                             <Route exact path="/Experience">
-                                Experience Page!
+                                <ExperiencePage></ExperiencePage>
                             </Route>
                             <Route exact path="/Skills">
-                                Skills Page!
+                                <SkillPage></SkillPage>
                             </Route>
                             <Route exact path="/Projects">
                                 Projects Page!

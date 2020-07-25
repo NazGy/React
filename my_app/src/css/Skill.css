@@ -1,0 +1,58 @@
+.full_background {
+    height: 100%;
+    width: 100%;
+}
+
+.pink_background {
+    padding-top: 50px;
+    background-color: #DAB6F9;
+}
+
+.black_background {
+    padding-top: 50px;
+    background-color: black;
+}
+
+.left_title {
+    font-family: 'Fira Code';
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 0.3em;
+}
+
+.right_title {
+    font-family: 'Fira Code';
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.3em;
+    padding-left: 5px;
+    color: #DAB6F9;
+}
+
+
+.left_body {
+    margin-top: 20px; 
+    font-family: 'Fira Code';
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 0.3em;
+    padding-right: 10px;
+}
+
+.right_body {
+    margin-top: 20px; 
+    font-family: 'Fira Code';
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.3em;
+    padding-left: 30px;
+    color: #DAB6F9;
+}

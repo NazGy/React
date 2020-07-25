@@ -1,7 +1,10 @@
 .backdrop {
     background-color: #23251C !important;
     width: 100%;
-    height: 100%;
+    /* padding: 100px; */
+    /* height: 100%; */
+    /* position: fixed */
+    /* position: absolute; */
 }
 
 body {
@@ -35,7 +38,7 @@ body {
     letter-spacing: 0.3em !important;
     color: #FFFFFF;
     position: absolute;
-    top: 400px;
+    top: 444px;
 }
 
 .title {

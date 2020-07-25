@@ -1,6 +1,7 @@
 .header {
     background-color: '#23251C' !important;
     box-shadow: 'none' !important;
+    padding: none !important;
 }
 
 a {
