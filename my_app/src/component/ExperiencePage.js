@@ -17,23 +17,23 @@ class ExperiencePage extends React.Component {
                     {/* Job 1 */}
                     <div className={"job_row"}>
                         <div className={"column"} style={{ width: '33%' }}>
-                            <div className={"job_title"} >
+                            <p className={"job_title"} >
                                 Automation Developer
-                            </div>
+                            </p>
                             <Divider className={"horizontal"}></Divider>
-                            <div className={"job_date"}>
+                            <p className={"job_date"}>
                                 May 2019 - Present
-                            </div>
-                            <div className={"job_date"}>
+                            </p>
+                            <p className={"job_date"}>
                                 Toronto, Ontario
-                            </div>
+                            </p>
                         </div>
                         <Divider className={"vert"} orientation="vertical" flexItem />
                         <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px', marginTop: '15px' }} className="job_desc">
-                            <div className={"desc_row"}>•	Created and maintained UI and API tests for several web applications and services using protractor and postman</div>
-                            <div className={"desc_row"}>•	Developed a machine learning solution for locator errors in automation frameworks, through Python and flask</div>
-                            <div className={"desc_row"}>•	Proposed and designed a UI testing framework by implementing practices of BDD using CucumberJS</div>
-                            <div className={"desc_row"}>•	Involved in developing a reporting dashboard to display the stability of the system over time, using React, Flask and MongoDB</div>
+                            <p className={"desc_row"}>•	Created and maintained UI and API tests for several web applications and services using protractor and postman</p>
+                            <p className={"desc_row"}>•	Developed a machine learning solution for locator errors in automation frameworks, through Python and flask</p>
+                            <p className={"desc_row"}>•	Proposed and designed a UI testing framework by implementing practices of BDD using CucumberJS</p>
+                            <p className={"desc_row"}>•	Involved in developing a reporting dashboard to display the stability of the system over time, using React, Flask and MongoDB</p>
                         </div>
                         <Divider className="vert" orientation="vertical" flexItem />
                         <div className={"column"} style={{ width: '33%' }}>
@@ -43,22 +43,22 @@ class ExperiencePage extends React.Component {
                     {/* Job 2 */}
                     <div className={"job_row"}>
                         <div className={"column"} style={{ width: '33%'}}>
-                            <div className={"job_title"}>
+                            <p className={"job_title"}>
                                 Community Engagement Ambassador
-                            </div>
+                            </p>
                             <Divider className={"horizontal"}></Divider>
-                            <div className={"job_date"}>
+                            <p className={"job_date"}>
                                 August 2018 - April 2019
-
-                            </div>
-                            <div className={"job_date"}>
+                            </p>
+                            <p className={"job_date"}>
                                 Toronto, Ontario
-                            </div>
+                            </p>
                         </div>
                         <Divider className={"vert"} orientation="vertical" flexItem />
                         <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }} className="job_desc">
-                            <div className={"desc_row"}>•	Initiated the drop-in badminton program and led weekly board game café events at Hart house</div>
-                            <div className={"desc_row"}>•	Outreached events to visiting students to promote inclusivity and support wellness</div></div>
+                            <p className={"desc_row"}>•	Initiated the drop-in badminton program and led weekly board game café events at Hart house</p>
+                            <p className={"desc_row"}>•	Outreached events to visiting students to promote inclusivity and support wellness</p>
+                        </div>
                         <Divider className="vert" orientation="vertical" flexItem />
                         <div className={"column"} style={{ width: '33%' }}>
                             <img className={"logo"} src={require('../pictures/Hart House.png')}></img>

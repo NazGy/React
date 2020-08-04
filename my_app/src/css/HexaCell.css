@@ -92,3 +92,7 @@ border-bottom: 60px solid lightblue;
     left: 80px;
     word-spacing: 100vw;
 }
+
+svg {
+    width: 100px;
+}

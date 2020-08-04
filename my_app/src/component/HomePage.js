@@ -8,12 +8,10 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className={"center_page"} style={{minHeight: '100%'}}>
-                <div className={"row"} style={{marginTop: '90px', }}>
-                    <img className={"photo"} style={{ width: '400', height: '400', borderRadius: '50%' }} src={require('../pictures/Home_Photo.jpg')} />
-                    <Typography className={"name"}>Nazar Georgis-Yap.</Typography>
-                </div>
-                <div className={"row"}>
-                    <Typography className={"title"}>Software Developer</Typography>
+                <img className={"photo"} style={{width: '33%', borderRadius: '50%', position: 'absolute' }} src={require('../pictures/Home_Photo.jpg')} />
+                <div style={{marginTop: '35%', zIndex: '5'}}>
+                    <p className={"name"}>Nazar Georgis-Yap.</p>
+                    <p className={"title"}>Software Developer</p>
                 </div>
             </div>
         )

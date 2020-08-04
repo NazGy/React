@@ -1,0 +1,47 @@
+.project_title {
+    font-family: 'Fira Code' !important;
+    font-size: 60px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3em !important;
+    color: #DAB6F9;
+}
+
+.proj_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.project_name {
+    margin-top: 3px !important;
+    font-family: 'Fira Code' !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: white;
+}
+
+.project_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px !important;
+    font-family: 'Fira Code' !important;
+    font-size: 15px !important;
+    font-weight: normal;
+    color: white;
+    text-align: left !important;
+}
+
+.divider {
+    background-color: rgb(127, 19, 211) !important;
+    height: 10px !important;
+    width: 25% !important;
+}
+
+.project_logo {
+    width: 30%;
+    max-width: 650px;
+    height: 40%;
+}

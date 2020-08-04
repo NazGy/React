@@ -20,6 +20,11 @@
     margin-top: 40px; 
 }
 
+p {
+    margin: 0;
+    text-align: center;
+}
+
 .item {
     border-right: 3px solid rgb(0, 146, 247);
 }
@@ -80,9 +85,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: left !important;
 }
 
 .logo {
-    /* width: 75% !important; */
-    height: 15vh !important;
+    width: 80% !important;
+    max-width: 400px;
+    /* height: 15vh !important; */
 }
