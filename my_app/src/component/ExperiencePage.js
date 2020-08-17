@@ -64,6 +64,56 @@ class ExperiencePage extends React.Component {
                             <img className={"logo"} src={require('../pictures/Hart House.png')}></img>
                         </div>
                     </div>
+                    {/* VOLUNTEER */}
+                    <div style={{marginTop:"120px"}}>
+                        <p className="other_exp">Volunteer experiences</p>
+                    </div>
+                    <div className={"job_row"}>
+                        <div className={"column"} style={{ width: '33%'}}>
+                            <p className={"job_title"}>
+                                Get Lit Gaming
+                            </p>
+                            <Divider className={"horizontal"}></Divider>
+                            <p className={"job_date"}>
+                                2019 - Present
+                            </p>
+                            <p className={"job_date"}>
+                                President
+                            </p>
+                        </div>
+                        <Divider className={"vert"} orientation="vertical" flexItem />
+                        <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px'}} className="job_desc">
+                            <p className={"desc_row"}>• Founded of the club by creating a constitution, hiring executive members and obtaining official affiliation with New College and UofT </p>
+                            <p className={"desc_row"}>• Coordinates with Student Council, Office of Student Life and UofT student unions to create budgets and run weekly drop-in board game nights </p>
+                        </div>
+                        <Divider className="vert" orientation="vertical" flexItem />
+                        <div className={"column"} style={{ width: '33%' }}>
+                            <img className={"logo"} src={require('../pictures/GLG.png')}></img>
+                        </div>
+                    </div>
+                    <div className={"job_row"}>
+                        <div className={"column"} style={{ width: '33%'}}>
+                            <p className={"job_title"}>
+                                Computer Science Student Union
+                            </p>
+                            <Divider className={"horizontal"}></Divider>
+                            <p className={"job_date"}>
+                                2017 - Present
+                            </p>
+                            <p className={"job_date"}>
+                                Office Operations
+                            </p>
+                        </div>
+                        <Divider className={"vert"} orientation="vertical" flexItem />
+                        <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }} className="job_desc">
+                            <p className={"desc_row"}>• Assists with events involving the Computer Science community  </p>
+                            <p className={"desc_row"}>• Manages the CSSU lounge during scheduled office hours </p>
+                        </div>
+                        <Divider className="vert" orientation="vertical" flexItem />
+                        <div className={"column"} style={{ width: '33%' }}>
+                            <img className={"logo"} src={require('../pictures/CSSU.png')}></img>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
