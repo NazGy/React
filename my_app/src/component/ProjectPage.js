@@ -2,8 +2,11 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import '../css/Project.css'
 import Divider from '@material-ui/core/Divider';
-import facially from '../pictures/Facial.ly.png'
-import balanceCheck from '../pictures/BalanceCheck.png'
+import facially from '../pictures/Facialy_Logo.png'
+import balanceCheck from '../pictures/BalanceCheck_Logo.png'
+import radar from '../pictures/Radar_Logo.png'
+import elementScanner from '../pictures/ElementScanner_Logo.png'
+import myInterviewer from '../pictures/MyInterviewer_Logo.png'
 
 class ProjectPage extends React.Component {
 
@@ -14,7 +17,7 @@ class ProjectPage extends React.Component {
                     <Typography className={"project_title"} style={{ marginTop: '90px' }}>My Projects.</Typography>
                 </div>
                 <div className={"proj_row"}>
-                    <img src={balanceCheck} className={"project_logo"}></img>
+                    <img src={radar} className={"project_logo"}></img>
                     <div className={"column"} style={{width: '30%'}}>
                         <p className={"project_name"} style={{borderBottom: '0.8px solid white'}}>
                             R.A.D.A.R
@@ -26,10 +29,13 @@ class ProjectPage extends React.Component {
                             Intact
                         </p>
                         <p className={"project_desc"}>
-                        • Created a web app made with React that prompts common interview questions and listens for speech responses in real time
+                        • A web app solution to monitor and maintain environment stability by aggregating automated test data and build status reports to help over 100 employees
                         </p>
                         <p className={"project_desc"}>
-                        • Google API Speech to text was used to process audio and Flask was used for the backend
+                        • Deployed with React as the front end, flask as back end using a MongoDB database.
+                        </p>
+                        <p className={"project_desc"}>
+                        • Created an proffessional commercial seen by vice-presidents, that displays key features of the application.
                         </p>
                     </div>
                 </div>
@@ -52,11 +58,11 @@ class ProjectPage extends React.Component {
                         • Google API Speech to text was used to process audio and Flask was used for the backend
                         </p>
                     </div>
-                    <img src={balanceCheck} className={"project_logo"}></img>
+                    <img src={myInterviewer} className={"project_logo"}></img>
                 </div>
                 <div className={"proj_row"}><Divider className={"divider"}></Divider></div>
                 <div className={"proj_row"}>
-                    <img src={balanceCheck} className={"project_logo"}></img>
+                    <img src={elementScanner} className={"project_logo"}></img>
                     <div className={"column"} style={{width: '30%'}}>
                         <p className={"project_name"} style={{borderBottom: '0.8px solid white'}}>
                             Element Scanner
@@ -68,10 +74,13 @@ class ProjectPage extends React.Component {
                             Intact
                         </p>
                         <p className={"project_desc"}>
-                        • Created a web app made with React that prompts common interview questions and listens for speech responses in real time
+                        • A machine learning solution in Python for locator errors in automation frameworks
                         </p>
                         <p className={"project_desc"}>
-                        • Google API Speech to text was used to process audio and Flask was used for the backend
+                        • Developed using Python libraries like scipy, numpy and flask
+                        </p>
+                        <p className={"project_desc"}>
+                        • Presented the solution in front of lead manager for software department of commercial lines 
                         </p>
                     </div>
                     
@@ -115,10 +124,8 @@ class ProjectPage extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div className={"proj_row"}><Divider className={"divider"}></Divider></div>
             </div>
         )
-
     }
 }
 

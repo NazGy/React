@@ -84,7 +84,6 @@ p {
     margin-bottom: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     text-align: left !important;
 }
 
@@ -92,4 +91,10 @@ p {
     width: 80% !important;
     max-width: 400px;
     /* height: 15vh !important; */
+}
+.other_exp {
+    font-family: 'Fira Code' !important;
+    font-size: 30px !important;
+    text-transform: uppercase !important;
+    color: #DAB6F9;
 }
