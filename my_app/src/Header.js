@@ -17,7 +17,7 @@ class Header extends React.Component {
 
     componentDidMount() {
         this.setState({
-            toggled: "/"
+            toggled: this.props.location.pathname? this.props.location.pathname : "/"
         })
     }
 
