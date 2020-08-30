@@ -14,13 +14,16 @@ class HexaCell extends React.Component {
         // else if (this.props.size == "small")
         //     return <HexaSmall></HexaSmall>
         return (
-        <Hexagon
-            style={{stroke: 'black', height: '80px', width: '80px', strokeWidth: '20'}}
-            // flatTop={true}
-            backgroundImage={this.props.imgSrc}
-            // diagonal={300}
-        >
-            </Hexagon>
+            <div style={{display: 'flex', alignItems: 'center'}}>
+                <Hexagon
+                    style={{ stroke: this.props.color ? this.props.color : 'black', height: '80px', width: '80px', strokeWidth: '20' }}
+                // flatTop={true}
+                // backgroundImage={this.props.imgSrc}
+                // diagonal={300}
+                >
+                </Hexagon>
+                <img src={this.props.imgSrc} width="70px" height="70px" style={{marginLeft: '-85px'}}></img>
+            </div>
         )
     }
 

@@ -17,7 +17,7 @@ class ProjectPage extends React.Component {
                     <Typography className={"project_title"} style={{ marginTop: '90px' }}>My Projects.</Typography>
                 </div>
                 <div className={"proj_row"}>
-                    <img src={radar} className={"project_logo"}></img>
+                        <img src={radar} style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}className={"project_logo"}></img>
                     <div className={"column"} style={{width: '30%'}}>
                         <p className={"project_name"} style={{borderBottom: '0.8px solid white'}}>
                             R.A.D.A.R

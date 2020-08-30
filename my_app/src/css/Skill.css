@@ -5,18 +5,20 @@
 
 .pink_background {
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #DAB6F9;
 }
 
 .black_background {
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: black;
 }
 
 .left_title {
     font-family: 'Fira Code';
     font-weight: bold;
-    font-size: 60px;
+    font-size: 70px;
     display: flex;
     justify-content: flex-end;
     letter-spacing: 0.3em;
@@ -25,7 +27,7 @@
 .right_title {
     font-family: 'Fira Code';
     font-weight: bold;
-    font-size: 60px;
+    font-size: 70px;
     display: flex;
     justify-content: flex-start;
     letter-spacing: 0.3em;
@@ -38,7 +40,7 @@
     margin-top: 20px; 
     font-family: 'Fira Code';
     font-weight: 900;
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: flex-end;
     letter-spacing: 0.3em;
@@ -49,7 +51,7 @@
     margin-top: 20px; 
     font-family: 'Fira Code';
     font-weight: 900;
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: flex-start;
     letter-spacing: 0.3em;
