@@ -30,7 +30,7 @@ class Header extends React.Component {
     render() {
 
         const colorMap = {
-            "/": 'white',
+            "/Home": 'white',
             "/About": 'white',
             "/Experience": 'white',
             "/Skills": 'white',
@@ -47,7 +47,7 @@ class Header extends React.Component {
                 <Toolbar>
                     <img style={{width: '40', height: '40'}} src={require('./pictures/Logo.png')}/>
                     <Link to="/">
-                        <Button style={{color: colorMap["/"]}} onClick={() => this.handleChange("/")}>Home</Button>
+                        <Button style={{color: colorMap["/Home"]}} onClick={() => this.handleChange("/Home")}>Home</Button>
                     </Link>
                     {/* /
                     <Link to="/About">
