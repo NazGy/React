@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React/static/css/main.883b4c65.chunk.css",
+    "main.js": "/React/static/js/main.9883f09b.chunk.js",
+    "main.js.map": "/React/static/js/main.9883f09b.chunk.js.map",
+    "runtime-main.js": "/React/static/js/runtime-main.9e711646.js",
+    "runtime-main.js.map": "/React/static/js/runtime-main.9e711646.js.map",
+    "static/js/2.955471c1.chunk.js": "/React/static/js/2.955471c1.chunk.js",
+    "static/js/2.955471c1.chunk.js.map": "/React/static/js/2.955471c1.chunk.js.map",
+    "index.html": "/React/index.html",
+    "precache-manifest.8062f19ecdc8489b1c4d36f13faa1b13.js": "/React/precache-manifest.8062f19ecdc8489b1c4d36f13faa1b13.js",
+    "service-worker.js": "/React/service-worker.js",
+    "static/css/main.883b4c65.chunk.css.map": "/React/static/css/main.883b4c65.chunk.css.map",
+    "static/js/2.955471c1.chunk.js.LICENSE.txt": "/React/static/js/2.955471c1.chunk.js.LICENSE.txt",
+    "static/media/AP_Polygon_1.png": "/React/static/media/AP_Polygon_1.69a22bed.png",
+    "static/media/AP_Polygon_2.png": "/React/static/media/AP_Polygon_2.992f9d8c.png",
+    "static/media/AP_Polygon_3.png": "/React/static/media/AP_Polygon_3.9213c5ef.png",
+    "static/media/AP_Polygon_4.png": "/React/static/media/AP_Polygon_4.d54af619.png",
+    "static/media/AP_Polygon_5.png": "/React/static/media/AP_Polygon_5.5884eb03.png",
+    "static/media/BalanceCheck_Logo.png": "/React/static/media/BalanceCheck_Logo.06f911b0.png",
+    "static/media/Cover.png": "/React/static/media/Cover.5180ab4b.png",
+    "static/media/ElementScanner_Logo.png": "/React/static/media/ElementScanner_Logo.f960b331.png",
+    "static/media/Facialy_Logo.png": "/React/static/media/Facialy_Logo.58568ca9.png",
+    "static/media/GLG.png": "/React/static/media/GLG.c8ed30c6.png",
+    "static/media/Home_Photo.jpg": "/React/static/media/Home_Photo.1ed78f42.jpg",
+    "static/media/MyInterviewer_Logo.png": "/React/static/media/MyInterviewer_Logo.2d0410af.png",
+    "static/media/Radar_Logo.png": "/React/static/media/Radar_Logo.a7929758.png",
+    "static/media/git.png": "/React/static/media/git.d6463837.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e711646.js",
+    "static/js/2.955471c1.chunk.js",
+    "static/css/main.883b4c65.chunk.css",
+    "static/js/main.9883f09b.chunk.js"
+  ]
+}
