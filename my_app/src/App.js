@@ -21,7 +21,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="backdrop">
-                <Router>
+                <Router basename={process.env.PUBLIC_URL}>
                     <div>
                         <Header></Header>
                         <Switch>

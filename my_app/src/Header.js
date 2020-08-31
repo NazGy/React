@@ -49,10 +49,10 @@ class Header extends React.Component {
                     <Link to="/">
                         <Button style={{color: colorMap["/"]}} onClick={() => this.handleChange("/")}>Home</Button>
                     </Link>
-                    /
+                    {/* /
                     <Link to="/About">
                         <Button style={{color: colorMap["/About"]}} onClick={() => this.handleChange("/About")}>About</Button>
-                    </Link>
+                    </Link> */}
                     /
                     <Link to="/Experience">
                         <Button style={{color: colorMap["/Experience"]}} onClick={() => this.handleChange("/Experience")}>Experience</Button>
