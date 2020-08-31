@@ -8,7 +8,7 @@ import { withRouter, Redirect } from 'react-router';
 import {
     Switch,
     Route,
-    BrowserRouter as Router
+    HashRouter as Router
 } from "react-router-dom";
 import AboutPage from './component/AboutPage.js';
 import ExperiencePage from './component/ExperiencePage.js';
