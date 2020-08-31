@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React/static/css/main.883b4c65.chunk.css",
-    "main.js": "/React/static/js/main.80eec53d.chunk.js",
-    "main.js.map": "/React/static/js/main.80eec53d.chunk.js.map",
+    "main.js": "/React/static/js/main.b290dd93.chunk.js",
+    "main.js.map": "/React/static/js/main.b290dd93.chunk.js.map",
     "runtime-main.js": "/React/static/js/runtime-main.9e711646.js",
     "runtime-main.js.map": "/React/static/js/runtime-main.9e711646.js.map",
-    "static/js/2.955471c1.chunk.js": "/React/static/js/2.955471c1.chunk.js",
-    "static/js/2.955471c1.chunk.js.map": "/React/static/js/2.955471c1.chunk.js.map",
+    "static/js/2.3106860d.chunk.js": "/React/static/js/2.3106860d.chunk.js",
+    "static/js/2.3106860d.chunk.js.map": "/React/static/js/2.3106860d.chunk.js.map",
     "index.html": "/React/index.html",
-    "precache-manifest.8c0ce5e74ecddd630a2f2461b0ae1f54.js": "/React/precache-manifest.8c0ce5e74ecddd630a2f2461b0ae1f54.js",
+    "precache-manifest.7765c0998da824968dae0ea4d453481f.js": "/React/precache-manifest.7765c0998da824968dae0ea4d453481f.js",
     "service-worker.js": "/React/service-worker.js",
     "static/css/main.883b4c65.chunk.css.map": "/React/static/css/main.883b4c65.chunk.css.map",
-    "static/js/2.955471c1.chunk.js.LICENSE.txt": "/React/static/js/2.955471c1.chunk.js.LICENSE.txt",
+    "static/js/2.3106860d.chunk.js.LICENSE.txt": "/React/static/js/2.3106860d.chunk.js.LICENSE.txt",
     "static/media/AP_Polygon_1.png": "/React/static/media/AP_Polygon_1.69a22bed.png",
     "static/media/AP_Polygon_2.png": "/React/static/media/AP_Polygon_2.992f9d8c.png",
     "static/media/AP_Polygon_3.png": "/React/static/media/AP_Polygon_3.9213c5ef.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9e711646.js",
-    "static/js/2.955471c1.chunk.js",
+    "static/js/2.3106860d.chunk.js",
     "static/css/main.883b4c65.chunk.css",
-    "static/js/main.80eec53d.chunk.js"
+    "static/js/main.b290dd93.chunk.js"
   ]
 }
