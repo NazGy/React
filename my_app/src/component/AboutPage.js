@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import { withRouter } from 'react-router';
 import "../css/About.css"
 import HexaCell from './HexaCell'
+import HexTree from './HexTree'
 import poly1 from '../pictures/AP_Polygon_1.png'
 import poly2 from '../pictures/AP_Polygon_2.png'
 import poly3 from '../pictures/AP_Polygon_3.png'
@@ -28,6 +29,7 @@ class AboutPage extends React.Component {
                     <div className={"pink_box"}>
                         <div className="hexColumn">
                             <div className="hexRow" style={{ marginTop: '45px' }}>
+                                <HexTree color="#DAB6F9" reverse images={[poly1]}></HexTree>
                                 <HexaCell size="large" imgSrc={poly1} ></HexaCell>
                                 <HexaCell size="large" imgSrc={poly2} sty="poly1" text="Studying Computer Science"></HexaCell>
                             </div>
@@ -37,6 +39,7 @@ class AboutPage extends React.Component {
                             <div className="hexRow" style={{ marginTop: '45px' }}>
                                 <HexaCell size="large" imgSrc={poly4}></HexaCell>
                                 <HexaCell size="large" imgSrc={poly5} sty="poly5" text="Machine Learning"></HexaCell>
+                                
                             </div>
                         </div>
                     </div>

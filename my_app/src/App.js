@@ -14,6 +14,7 @@ import AboutPage from './component/AboutPage.js';
 import ExperiencePage from './component/ExperiencePage.js';
 import SkillPage from './component/SkillPage.js';
 import ProjectPage from './component/ProjectPage.js';
+import ContactPage from './component/ContactPage.js';
 
 
 class App extends React.Component {
@@ -41,6 +42,9 @@ class App extends React.Component {
                             </Route>
                             <Route exact path="/Projects">
                                 <ProjectPage></ProjectPage>
+                            </Route>
+                            <Route exact path="/Contact">
+                                <ContactPage></ContactPage>
                             </Route>
                         </Switch>
                     </div>

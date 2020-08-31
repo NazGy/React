@@ -43,8 +43,8 @@ class SkillPage extends React.Component {
         const leftSkillsMap = {
             Selenium: selenium,
             Cucumber: cucumber,
+            "Machine Learning": ml,
             Jira: jira,
-            "Machine Learning": ml
         }
 
         const farRightSkillsMap = {
@@ -59,8 +59,8 @@ class SkillPage extends React.Component {
         const rightSkillsMap = {
             Postman: postman,
             Protractor: protractor,
+            C: c,
             Jenkins: jenkins,
-            C: c
         }
 
         const farLeftSkills = Object.keys(farLeftSkillsMap)

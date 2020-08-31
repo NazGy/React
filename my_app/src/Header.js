@@ -35,6 +35,7 @@ class Header extends React.Component {
             "/Experience": 'white',
             "/Skills": 'white',
             "/Projects": 'white',
+            "/Contact": 'white',
         }
 
         if (this.state && this.state.toggled) {
@@ -63,6 +64,10 @@ class Header extends React.Component {
                     /
                     <Link to="/Projects">
                         <Button style={{color: colorMap["/Projects"]}} onClick={() => this.handleChange("/Projects")}>Projects</Button>
+                    </Link>
+                    /
+                    <Link to="/Contact">
+                        <Button style={{color: colorMap["/Contact"]}} onClick={() => this.handleChange("/Contact")}>Contact</Button>
                     </Link>
                 </Toolbar>
             </AppBar>

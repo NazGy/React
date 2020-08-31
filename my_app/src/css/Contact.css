@@ -1,0 +1,29 @@
+.thanks {
+    font-family: 'Fira Code';
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #DAB6F9;
+}
+
+.contact {
+    font-family: 'Fira Code';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.contact_text {
+    margin-top: 5px;
+    font-family: 'Fira Code';
+    font-size: 13px;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.1em; */
+    color: white;
+}
+
+.contact_text:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+  }
