@@ -1,10 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import HomePage from './component/HomePage.js'
 import Header from './Header.js'
-import { Typography } from '@material-ui/core';
 import "./css/Home.css"
-import { withRouter, Redirect } from 'react-router';
+import { Redirect } from 'react-router';
 import {
     Switch,
     Route,

@@ -1,11 +1,8 @@
-import python from '../pictures/python.png'
 import React from 'react';
-import HexaCell from './HexaCell';
 import "../css/Contact.css"
 import email from "../pictures/email.png"
 import linkedin from "../pictures/linkedin.png"
 import github from "../pictures/github.png"
-import white from "../pictures/white.png"
 
 
 export default function ContactPage(props) {
