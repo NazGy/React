@@ -70,8 +70,8 @@ class ProjectPage extends React.Component {
                     </div>
                 </div>
                 <div className={"proj_row"}><Divider className={"divider"}></Divider></div>
-                <div className={"proj_row"} style={{ border: 'solid purple 1px' }}>
-                    <div className={"column"} style={{ width: '30%', border: 'solid green 1px' }}>
+                <div className={"proj_row"}>
+                    <div className={"column"} style={{ width: '30%' }}>
                         <p className={"project_name"} style={{ borderBottom: '0.8px solid white' }}>
                             MyInterviewer
                         </p>
@@ -88,7 +88,7 @@ class ProjectPage extends React.Component {
                             • Google API Speech to text was used to process audio and Flask was used for the backend
                         </p>
                     </div>
-                    <img src={myInterviewer} className={"project_logo"} style={{ border: 'solid blue 1px' }}></img>
+                    <img src={myInterviewer} className={"project_logo"}></img>
                 </div>
                 <div className={"proj_row"}><Divider className={"divider"}></Divider></div>
                 <div className={"proj_row"}>
