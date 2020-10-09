@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import volunteer from '../info/volunteer'
 
 import { withRouter } from 'react-router';
 import "../css/Experience.css"
@@ -18,11 +19,11 @@ class ExperiencePage extends React.Component {
                     <div className={"job_row"}>
                         <div className={"column"} style={{ width: '33%' }}>
                             <p className={"job_title"} >
-                                Automation Developer
+                                Software Developer
                             </p>
                             <Divider className={"horizontal"}></Divider>
                             <p className={"job_date"}>
-                                May 2019 - Present
+                                May 2019 - August 2020
                             </p>
                             <p className={"job_date"}>
                                 Toronto, Ontario
@@ -42,7 +43,7 @@ class ExperiencePage extends React.Component {
                     </div>
                     {/* Job 2 */}
                     <div className={"job_row"}>
-                        <div className={"column"} style={{ width: '33%'}}>
+                        <div className={"column"} style={{ width: '33%' }}>
                             <p className={"job_title"}>
                                 Community Engagement Ambassador
                             </p>
@@ -65,11 +66,42 @@ class ExperiencePage extends React.Component {
                         </div>
                     </div>
                     {/* VOLUNTEER */}
-                    <div style={{marginTop:"120px"}}>
+                    <div style={{ marginTop: "120px" }}>
                         <p className="other_exp">Volunteer experiences</p>
                     </div>
+                    {/* {
+                        volunteer.map(exp => {
+                            return (<div className={"job_row"}>
+                                <div className={"column"} style={{ width: '33%' }}>
+                                    <p className={"job_title"}>
+                                        {exp.name}
+                                    </p>
+                                    <Divider className={"horizontal"}></Divider>
+                                    <p className={"job_date"}>
+                                        {exp.date}
+                                    </p>
+                                    <p className={"job_date"}>
+                                        {exp.position}
+                                    </p>
+                                </div>
+                                <Divider className={"vert"} orientation="vertical" flexItem />
+                                <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }} className="job_desc">
+                                    {
+                                        exp.description.map(desc => {
+                                            return <p className={"desc_row"}>• {desc}</p>
+                                        })
+                                    }
+                                </div>
+                                <Divider className="vert" orientation="vertical" flexItem />
+                                <div className={"column"} style={{ width: '33%' }}>
+                                    <img className={"logo"} src={require(exp.photo)}></img>
+                                </div>
+                            </div>
+                            )
+                        })
+                    } */}
                     <div className={"job_row"}>
-                        <div className={"column"} style={{ width: '33%'}}>
+                        <div className={"column"} style={{ width: '33%' }}>
                             <p className={"job_title"}>
                                 Get Lit Gaming
                             </p>
@@ -82,7 +114,7 @@ class ExperiencePage extends React.Component {
                             </p>
                         </div>
                         <Divider className={"vert"} orientation="vertical" flexItem />
-                        <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px'}} className="job_desc">
+                        <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }} className="job_desc">
                             <p className={"desc_row"}>• Founded of the club by creating a constitution, hiring executive members and obtaining official affiliation with New College and UofT </p>
                             <p className={"desc_row"}>• Coordinates with Student Council, Office of Student Life and UofT student unions to create budgets and run weekly drop-in board game nights </p>
                         </div>
@@ -92,7 +124,7 @@ class ExperiencePage extends React.Component {
                         </div>
                     </div>
                     <div className={"job_row"}>
-                        <div className={"column"} style={{ width: '33%'}}>
+                        <div className={"column"} style={{ width: '33%' }}>
                             <p className={"job_title"}>
                                 Computer Science Student Union
                             </p>

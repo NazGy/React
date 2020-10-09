@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 30px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .project_name {
@@ -42,7 +42,26 @@
 }
 
 .project_logo {
-    width: 30%;
+    /* width: 10%; */
     max-width: 650px;
-    height: 40%;
+    /* height: 80%; */
 }
+
+.proj_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    margin-top: -50px;
+    font-size: 15px;
+    color: white; 
+    font-family: 'Fira Code' !important;
+    padding: 2px;
+}
+
+.link:hover {
+    background-color:#7F13D3;
+  }

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "R.A.D.A.R",
+        "date": "April-August 2020",
+        "setting": "Intact",
+        "description": [
+            "A web app solution to monitor and maintain environment stability by aggregating automated test data and build status reports to help over 100 employees",
+            "Deployed with React as the front end, flask as back end using a MongoDB database.",
+            "Created an proffessional commercial seen by vice-presidents, that displays key features of the application."
+        ],
+        "": "../pictures/Radar_Logo.png"
+    },
+    {
+        "name": "MyInterviewer",
+        "date": "March 2020",
+        "setting": "NewHacks",
+        "description": [
+            "Created a web app made with React that prompts common interview questions and listens for speech responses in real time",
+            "Google API Speech to text was used to process audio and Flask was used for the backend"
+        ]
+    },
+    {
+        "name": "Element Scanner",
+        "date": "2019",
+        "setting": "Intact",
+        "description": [
+            "A machine learning solution in Python for locator errors in automation frameworks",
+            "Developed using Python libraries like scipy, numpy and flask",
+            "Presented the solution in front of lead manager for software department of commercial lines"
+        ]
+    },
+    {
+        "name": "Facial.ly",
+        "date": "2019-2020",
+        "setting": "UoftAI",
+        "description": [
+            "Developed a Neural Network in TensorFlow using transfer learning to classify multiple facial features of a given image.",
+            "Developed using Python libraries like scipy, numpy and flask",
+            "Presented the solution in front of lead manager for software department of commercial lines"
+        ]
+    },
+    {
+        "name": "BalanceCheck",
+        "date": "2018",
+        "setting": "CSC301",
+        "description": [
+            "Developed a React web application with Django as the back end, that validates the correctness of online news articles through user feedback"
+        ]
+    }
+]
