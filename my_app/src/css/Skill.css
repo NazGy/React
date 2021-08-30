@@ -22,6 +22,7 @@
     display: flex;
     justify-content: flex-end;
     letter-spacing: 0.3em;
+    z-index: 1;
 }
 
 .right_title {
@@ -33,6 +34,7 @@
     letter-spacing: 0.3em;
     padding-left: 5px;
     color: #DAB6F9;
+    z-index: 1;
 }
 
 

@@ -93,9 +93,9 @@ class SkillPage extends React.Component {
                             <div class="left_title">
                                 MY SK
                             </div>
-                            <div style={{ marginRight: '10px' }}>
+                            <div style={{ marginRight: '10px', zIndex: '1' }}>
                                 {farLeftSkills.map(skill => {
-                                    return <div class="left_body">{skill}</div>
+                                    return <div  class="left_body">{skill}</div>
                                 })}
                                 {leftSkills.map(skill => {
                                     return <div class="left_body">{skill}</div>
@@ -109,12 +109,14 @@ class SkillPage extends React.Component {
                             <div class="right_title">
                                 ILLS
                             </div>
+                            <div style={{zIndex: '1'}}>
                             {farRightSkills.map(skill => {
                                 return <div class="right_body">{skill}</div>
                             })}
                             {rightSkills.map(skill => {
                                 return <div class="right_body">{skill}</div>
                             })}
+                            </div>
                         </div>
                     </div>
                     <div style={{ position: 'absolute', width: '100%', marginTop: '150px', display: 'flex', justifyContent: 'space-between' }}>
