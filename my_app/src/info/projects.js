@@ -21,9 +21,15 @@ import twitter2 from '../pictures/Final_Project-2.png'
 import twitter3 from '../pictures/Final_Project-3.png'
 import twitter4 from '../pictures/Final_Project-4.png'
 import twitter5 from '../pictures/Final_Project-5.png'
-
+import nemo1 from '../pictures/nemo_1.png'
+import nemo2 from '../pictures/nemo_2.png'
+import nemo3 from '../pictures/nemo_3.png'
+import nemo4 from '../pictures/nemo_4.png'
 
 const radar_video = 'https://youtu.be/ITwl_mZSy-4'
+const balanceCheck_video1 = 'https://youtu.be/v7scyYT9m5U'
+const balanceCheck_video2 = 'https://youtu.be/vJToANBcGMA'
+
 
 export const projects = [
     {
@@ -31,20 +37,21 @@ export const projects = [
         "date": "2021",
         "setting": "CSC302",
         "description": [
-            "A web app solution to monitor and maintain environment stability by aggregating automated test data and build status reports to help over 100 employees",
-            "Deployed with React as the front end, flask as back end using a MongoDB database.",
-            "Created an proffessional commercial seen by vice-presidents, that displays key features of the application."
+            "A medical documentation and administrative system designed to reduce the need of manual COVID test reporting accross Canada",
+            "Developed using React, expressJS and MongoDB supported with Github workflows, Jest and Cypress to monitor and maintain environment stability"
         ],
         "logo": nemo,
+        "dialogue": {
+            "images": [nemo1, nemo2, nemo3, nemo4]
+        }
     },
     {
-        "name": "Twitter Sentiment Analysis",
+        "name": "Twitter Sentiment Analysis Paper",
         "date": "2021",
         "setting": "CSC413",
         "description": [
-            "A web app solution to monitor and maintain environment stability by aggregating automated test data and build status reports to help over 100 employees",
-            "Deployed with React as the front end, flask as back end using a MongoDB database.",
-            "Created an proffessional commercial seen by vice-presidents, that displays key features of the application."
+            "A peer-reviewed research study on classifying public Twitter messages in accordance with positive or negative emotion using machine learning algorithms",
+            "Researched and compared two unique approaches using transfer learning with the BERT transofmrer model"
         ],
         "logo": twitter,
         "dialogue": {
@@ -58,9 +65,8 @@ export const projects = [
         "date": "Fall 2020",
         "setting": "CSC420",
         "description": [
-            "A web app solution to monitor and maintain environment stability by aggregating automated test data and build status reports to help over 100 employees",
-            "Deployed with React as the front end, flask as back end using a MongoDB database.",
-            "Created an proffessional commercial seen by vice-presidents, that displays key features of the application."
+            "A research study attempting to generate a smile on the face of a person using computer vision algorithms",
+            "Used pytorch to develop a convolutional autoencoder and Generative Adversial Network to reconstruct a blank spot on a face as a smile",
         ],
         "logo": smileML,
         "dialogue": {
@@ -124,6 +130,9 @@ export const projects = [
         "description": [
             "Developed a React web application with Django as the back end, that validates the correctness of online news articles through user feedback"
         ],
-        "logo": balanceCheck
+        "logo": balanceCheck,
+        "dialogue": {
+            "video": [balanceCheck_video1, balanceCheck_video2]
+        }
     }
 ]

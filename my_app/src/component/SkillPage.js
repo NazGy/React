@@ -26,6 +26,8 @@ import postman from '../pictures/postman.png'
 import protractor from '../pictures/protractor.png'
 import jenkins from '../pictures/jenkins.png'
 import ml from '../pictures/ml.png'
+import cypress from '../pictures/cypress.png'
+import typescript from '../pictures/typescript.png'
 
 class SkillPage extends React.Component {
 
@@ -45,6 +47,7 @@ class SkillPage extends React.Component {
             Cucumber: cucumber,
             "Machine Learning": ml,
             Jira: jira,
+            Cypress: cypress
         }
 
         const farRightSkillsMap = {
@@ -61,6 +64,7 @@ class SkillPage extends React.Component {
             Protractor: protractor,
             C: c,
             Jenkins: jenkins,
+            Typescript: typescript
         }
 
         const farLeftSkills = Object.keys(farLeftSkillsMap)
