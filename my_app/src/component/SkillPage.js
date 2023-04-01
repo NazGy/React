@@ -1,10 +1,6 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import HexaCell from './HexaCell';
 import HexTree from './HexTree';
 import { withRouter } from 'react-router';
-import "../css/Experience.css"
 import "../css/Skill.css"
 import python from '../pictures/python.png'
 import java from '../pictures/java.png'
@@ -28,6 +24,12 @@ import jenkins from '../pictures/jenkins.png'
 import ml from '../pictures/ml.png'
 import cypress from '../pictures/cypress.png'
 import typescript from '../pictures/typescript.png'
+import aws from '../pictures/aws.png'
+import cloudwatch from '../pictures/CloudWatch.png'
+import dynamodb from '../pictures/DynamoDB.png'
+import ec2 from '../pictures/EC2.png'
+import lambda from '../pictures/Lambda.png'
+import s3 from '../pictures/S3.png'
 
 class SkillPage extends React.Component {
 
@@ -40,6 +42,8 @@ class SkillPage extends React.Component {
             Tensorflow: tensorflow,
             RestAPIs: restapi,
             SQL: sql,
+            AWS: aws,
+            DynamoDB: dynamodb,
         }
 
         const leftSkillsMap = {
@@ -47,7 +51,8 @@ class SkillPage extends React.Component {
             Cucumber: cucumber,
             "Machine Learning": ml,
             Jira: jira,
-            Cypress: cypress
+            Cypress: cypress,
+            EC2: ec2
         }
 
         const farRightSkillsMap = {
@@ -57,6 +62,8 @@ class SkillPage extends React.Component {
             PyTorch: pytorch,
             GoogleAPI: googleapi,
             MongoDB: mongodb,
+            Lambda: lambda,
+            CloudWatch: cloudwatch
         }
 
         const rightSkillsMap = {
@@ -64,7 +71,8 @@ class SkillPage extends React.Component {
             Protractor: protractor,
             C: c,
             Jenkins: jenkins,
-            Typescript: typescript
+            Typescript: typescript,
+            S3: s3
         }
 
         const farLeftSkills = Object.keys(farLeftSkillsMap)

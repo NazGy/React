@@ -1,5 +1,14 @@
 export const volunteer = [
     {
+        "name": "UoftVegClub",
+        "date": "2021 - Present",
+        "position": "Green Crew",
+        "description": [
+            "Organised a collaboration event with Hart House 5$ lunch to promote plant based diets with over 300 attendees.",
+        ],
+        "photo": require('../pictures/VegClub.png')
+    },
+    {
         "name": "Get Lit Gaming",
         "date": "2019 - 2021",
         "position": "President",

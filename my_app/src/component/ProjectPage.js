@@ -2,22 +2,8 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import '../css/Project.css'
 import Divider from '@material-ui/core/Divider';
-import facially from '../pictures/Facialy_Logo.png'
-import balanceCheck from '../pictures/BalanceCheck_Logo.png'
-import radar from '../pictures/Radar_Logo.png'
-import elementScanner from '../pictures/ElementScanner_Logo.png'
-import myInterviewer from '../pictures/MyInterviewer_Logo.png'
 import { projects } from "../info/projects"
 import DialogViewer from '../component/DialogViewer'
-
-import radar1 from '../pictures/Radar_1.png'
-import radar2 from '../pictures/Radar_2.png'
-import radar3 from '../pictures/Radar_3.png'
-import radar4 from '../pictures/Radar_4.png'
-import radar5 from '../pictures/Radar_5.png'
-import radar6 from '../pictures/Radar_6.png'
-const radar_video = 'https://youtu.be/ITwl_mZSy-4'
-
 
 class ProjectPage extends React.Component {
 

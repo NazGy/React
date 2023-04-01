@@ -14,7 +14,6 @@ import SkillPage from './component/SkillPage.js';
 import ProjectPage from './component/ProjectPage.js';
 import ContactPage from './component/ContactPage.js';
 
-
 class App extends React.Component {
     render() {
         return (

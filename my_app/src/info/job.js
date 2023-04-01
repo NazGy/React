@@ -5,7 +5,11 @@ export const job = [
         "date": "August 2021 - Present",
         "location": "Toronto, Ontario",
         "description": [
-            "TBD"
+            "Handle production issues and real time customer needs through on-call rotations",
+            "Design, architect and present proposals to refactor our core service structure",
+            "Use the CDK to deploy applications using a variety AWS services including Lambda, DynamoDB, SQS and EC2.",
+            "Collaborate with a variety of internal and external stakeholders by providing insight on technical expectations and estimates",
+            "Specific project details subject to NDA"
         ],
         "photo": require('../pictures/Amazon.png')
     },

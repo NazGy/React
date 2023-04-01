@@ -1,4 +1,3 @@
-import python from '../pictures/python.png'
 import React from 'react';
 import HexaCell from './HexaCell';
 

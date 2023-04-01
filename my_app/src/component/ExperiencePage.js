@@ -1,12 +1,9 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
-
-import { withRouter } from 'react-router';
 import "../css/Experience.css"
 import { volunteer } from '../info/volunteer';
 import { job } from '../info/job';
-
 
 class ExperiencePage extends React.Component {
 
@@ -36,7 +33,7 @@ class ExperiencePage extends React.Component {
                             </p>
                             </div>
                             <Divider className={"vert"} orientation="vertical" flexItem />
-                            <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }} className="job_desc">
+                            <div className={"job_desc"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }}>
                                 {
                                     exp.description.map(desc => {
                                         return <p className={"desc_row"}>• {desc}</p>
@@ -70,7 +67,7 @@ class ExperiencePage extends React.Component {
                                 </p>
                             </div>
                             <Divider className={"vert"} orientation="vertical" flexItem />
-                            <div className={"column"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }} className="job_desc">
+                            <div className={"job_desc"} style={{ flexWrap: 'wrap', width: '33%', marginRight: '20px', marginLeft: '20px' }}>
                                 {
                                     exp.description.map(desc => {
                                         return <p className={"desc_row"}>• {desc}</p>

@@ -1,16 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Typography from '@material-ui/core/Typography';
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
 import "./css/Header.css"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { withRouter } from 'react-router';
 
 class Header extends React.Component {

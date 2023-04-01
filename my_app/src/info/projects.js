@@ -6,8 +6,6 @@ import myInterviewer from '../pictures/MyInterviewer_Logo.png'
 import smileML from '../pictures/SmileML_logo.png'
 import nemo from '../pictures/Nemo_logo.png'
 import twitter from '../pictures/Twitter_logo.png'
-
-
 import radar1 from '../pictures/Radar_1.png'
 import radar2 from '../pictures/Radar_2.png'
 import radar3 from '../pictures/Radar_3.png'
