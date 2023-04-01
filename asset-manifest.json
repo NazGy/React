@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React/static/css/main.a8d5b15e.chunk.css",
-    "main.js": "/React/static/js/main.d687ab72.chunk.js",
-    "main.js.map": "/React/static/js/main.d687ab72.chunk.js.map",
+    "main.css": "/React/static/css/main.010e27dd.chunk.css",
+    "main.js": "/React/static/js/main.4e3cf4eb.chunk.js",
+    "main.js.map": "/React/static/js/main.4e3cf4eb.chunk.js.map",
     "runtime-main.js": "/React/static/js/runtime-main.9e711646.js",
     "runtime-main.js.map": "/React/static/js/runtime-main.9e711646.js.map",
-    "static/js/2.9ed64a66.chunk.js": "/React/static/js/2.9ed64a66.chunk.js",
-    "static/js/2.9ed64a66.chunk.js.map": "/React/static/js/2.9ed64a66.chunk.js.map",
+    "static/js/2.b9b93aec.chunk.js": "/React/static/js/2.b9b93aec.chunk.js",
+    "static/js/2.b9b93aec.chunk.js.map": "/React/static/js/2.b9b93aec.chunk.js.map",
     "index.html": "/React/index.html",
-    "precache-manifest.4140dbb7b7a53c7828030b733d55d989.js": "/React/precache-manifest.4140dbb7b7a53c7828030b733d55d989.js",
+    "precache-manifest.484134d8ad25f7f862bf27e970c4ac53.js": "/React/precache-manifest.484134d8ad25f7f862bf27e970c4ac53.js",
     "service-worker.js": "/React/service-worker.js",
-    "static/css/main.a8d5b15e.chunk.css.map": "/React/static/css/main.a8d5b15e.chunk.css.map",
-    "static/js/2.9ed64a66.chunk.js.LICENSE.txt": "/React/static/js/2.9ed64a66.chunk.js.LICENSE.txt",
+    "static/css/main.010e27dd.chunk.css.map": "/React/static/css/main.010e27dd.chunk.css.map",
+    "static/js/2.b9b93aec.chunk.js.LICENSE.txt": "/React/static/js/2.b9b93aec.chunk.js.LICENSE.txt",
     "static/media/AP_Polygon_1.png": "/React/static/media/AP_Polygon_1.69a22bed.png",
     "static/media/AP_Polygon_2.png": "/React/static/media/AP_Polygon_2.992f9d8c.png",
     "static/media/AP_Polygon_3.png": "/React/static/media/AP_Polygon_3.9213c5ef.png",
@@ -41,8 +41,10 @@
     "static/media/Radar_5.png": "/React/static/media/Radar_5.d16532a9.png",
     "static/media/Radar_6.png": "/React/static/media/Radar_6.7d77bc09.png",
     "static/media/Radar_Logo.png": "/React/static/media/Radar_Logo.a7929758.png",
+    "static/media/S3.png": "/React/static/media/S3.80f50fc1.png",
     "static/media/SmileML_logo.png": "/React/static/media/SmileML_logo.a00c7520.png",
     "static/media/Twitter_logo.png": "/React/static/media/Twitter_logo.e33bc847.png",
+    "static/media/VegClub.png": "/React/static/media/VegClub.6d4aeea5.png",
     "static/media/csc420_1.png": "/React/static/media/csc420_1.12686867.png",
     "static/media/csc420_2.png": "/React/static/media/csc420_2.2e52697b.png",
     "static/media/git.png": "/React/static/media/git.d6463837.png",
@@ -53,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9e711646.js",
-    "static/js/2.9ed64a66.chunk.js",
-    "static/css/main.a8d5b15e.chunk.css",
-    "static/js/main.d687ab72.chunk.js"
+    "static/js/2.b9b93aec.chunk.js",
+    "static/css/main.010e27dd.chunk.css",
+    "static/js/main.4e3cf4eb.chunk.js"
   ]
 }

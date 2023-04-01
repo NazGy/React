@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90316a80a11506f57259d2c76a63a150",
+    "revision": "215f9ee24feeec1863c4ec0b6bf91a58",
     "url": "/React/index.html"
   },
   {
-    "revision": "eb86560ecfab90962b66",
-    "url": "/React/static/css/main.a8d5b15e.chunk.css"
+    "revision": "2a56a42089530e1806f6",
+    "url": "/React/static/css/main.010e27dd.chunk.css"
   },
   {
-    "revision": "c7cf90aae6040a7cd8a3",
-    "url": "/React/static/js/2.9ed64a66.chunk.js"
+    "revision": "ef8b036804f0cd5dfce2",
+    "url": "/React/static/js/2.b9b93aec.chunk.js"
   },
   {
     "revision": "ac9fac6c8e755a8efecd01981adb88e6",
-    "url": "/React/static/js/2.9ed64a66.chunk.js.LICENSE.txt"
+    "url": "/React/static/js/2.b9b93aec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb86560ecfab90962b66",
-    "url": "/React/static/js/main.d687ab72.chunk.js"
+    "revision": "2a56a42089530e1806f6",
+    "url": "/React/static/js/main.4e3cf4eb.chunk.js"
   },
   {
     "revision": "4478c4d596606f97dd88",
@@ -140,12 +140,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React/static/media/Radar_Logo.a7929758.png"
   },
   {
+    "revision": "80f50fc189b1d2132be860010fab4cb1",
+    "url": "/React/static/media/S3.80f50fc1.png"
+  },
+  {
     "revision": "a00c752017068225c73afee896675527",
     "url": "/React/static/media/SmileML_logo.a00c7520.png"
   },
   {
     "revision": "e33bc8472241c266e551342812d8a679",
     "url": "/React/static/media/Twitter_logo.e33bc847.png"
+  },
+  {
+    "revision": "6d4aeea59dc627c1807b00f23cf956a2",
+    "url": "/React/static/media/VegClub.6d4aeea5.png"
   },
   {
     "revision": "1268686754c7bf38d9f27558d81aac61",
